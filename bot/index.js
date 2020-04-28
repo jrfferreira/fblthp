@@ -1,4 +1,9 @@
-require("dotenv").config();
+const environment = process.env.NODE_ENV || "development";
+
+if (environment === "development") {
+  console.log("[DEV ENV] Using credentials from .env");
+  require("dotenv").config();
+}
 
 const Discord = require("discord.js");
 const client = new Discord.Client();

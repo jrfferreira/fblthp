@@ -1,6 +1,14 @@
 # fblthp
 A MTG Discord bot with social features
 
+### Running locally
+
+Add the `DISCORD_TOKEN` to `.env` file and run:
+
+``` bash
+yarn start
+```
+
 ---
 
 ### Inviting bots
