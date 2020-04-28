@@ -1,0 +1,17 @@
+{
+  "name": "fblthp",
+  "version": "1.0.0",
+  "description": "A MTG Discord bot with social features",
+  "main": "bot/index.js",
+  "repository": "https://github.com/jrfferreira/fblthp",
+  "author": "jrfferreira",
+  "license": "CC0 1.0 Universal",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "start": "node bot"
+  }
+}
